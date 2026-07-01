@@ -3042,8 +3042,8 @@ function Library:CreateWindow(...)
     local TabContainer = Library:Create('Frame', {
         BackgroundColor3 = Library.MainColor;
         BorderColor3 = Library.OutlineColor;
-        Position = UDim2.new(0, 8, 0, 30);
-        Size = UDim2.new(1, -16, 1, -38);
+        Position = UDim2.new(0, 8, 0, 35); -- Increased from 30 to 35 for gap
+        Size = UDim2.new(1, -16, 1, -43); -- Adjusted from -38 to -43 to maintain size
         ZIndex = 2;
         Parent = MainSectionInner;
     });
